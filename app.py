@@ -10,7 +10,7 @@ import sqlite3
 app = Flask(__name__)
 
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///db.sqlite3'
+app.config["SQLALCHEMY_DATABASE_URI"] = 'postgres://yaznfhnrifizmu:99ccd882cae2922fdce4f9d8db9992f3179fb1c970a983e1527f9ef7f7f0c024@ec2-54-221-217-204.compute-1.amazonaws.com:5432/deij3tq74i7arp'
 
 
 CORS(app)
